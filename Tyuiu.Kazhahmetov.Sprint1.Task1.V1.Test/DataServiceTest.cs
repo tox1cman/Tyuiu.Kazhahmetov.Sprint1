@@ -8,11 +8,11 @@ namespace Tyuiu.Kazhahmetov.Sprint1.Task1.V1.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double a = 3.0;
-            double x = 6.0;
-            double y = 2.0;
+            double a = 9.0;
+            double x = 2.0;
+            double y = 1.0;
             var res = ds.Calculate(a, x, y);
-            Assert.AreEqual(19, res);
+            Assert.AreEqual(54.67, res);
             
         }
     }
